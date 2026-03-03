@@ -35,3 +35,17 @@ pre {
 .md-contributors, .md-last-updated {
   opacity: 0.95;
 }
+
+/* Comments block styling */
+.md-comments {
+  border-top: 1px solid rgba(0,0,0,0.06);
+  padding-top: 16px;
+  margin-top: 20px;
+}
+.md-comments__title {
+  font-size: 1.15rem;
+  margin-bottom: 6px;
+}
+.md-comments__widget {
+  min-height: 120px;
+}
