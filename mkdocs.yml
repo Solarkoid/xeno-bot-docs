@@ -36,6 +36,12 @@ nav:
 
 plugins:
   - search
+  - mkdocstrings
+  - mermaid2
+  - awesome-pages
+  - redirects
+  - minify:
+      minify_html: true
 
 repo_url: https://github.com/devvyyxyz/xeno-bot-docs
 
