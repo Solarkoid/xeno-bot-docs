@@ -3,17 +3,19 @@
   <h2 class="md-comments__title">Comments</h2>
   <div class="md-comments__note" style="margin-bottom:8px;color:var(--md-typeset-meta);font-size:0.95em;">Discuss this page via GitHub Discussions (Giscus). You may need to sign in to comment.</div>
   <div class="md-comments__widget">
-    <script src="https://giscus.app/client.js"
-            data-repo="devvyyxyz/xeno-bot-docs"
-            data-repo-id=""
-            data-category=""
-            data-category-id=""
-            data-mapping="pathname"
-            data-reactions-enabled="1"
-            data-emit-metadata="0"
-            data-theme="github-light"
-            crossorigin="anonymous"
-            async>
-    </script>
+    {# Set `data-category` to the Discussions category name and fill `data-category-id` with the numeric ID.
+       You can get the category ID from the Discussions settings or via the GitHub API/GraphQL. #}
+        <script src="https://giscus.app/client.js"
+          data-repo="devvyyxyz/xeno-bot-docs"
+          data-repo-id="1171753358"
+          data-category="general"
+          data-category-id="REPLACE_WITH_CATEGORY_ID"
+          data-mapping="pathname"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-theme="preferred-color-scheme"
+          crossorigin="anonymous"
+          async>
+        </script>
   </div>
 </div>
