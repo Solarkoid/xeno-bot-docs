@@ -1,0 +1,26 @@
+{# Custom content partial to add a visible "Edit this page" link and help note above the title #}
+{% if "material/tags" in config.plugins %}
+  {% include "partials/tags.html" %}
+{% endif %}
+
+{# Visible edit link and short help note for proposing edits #}
+{% if page.edit_url %}
+  <div class="md-edit-top" style="margin-bottom:8px;">
+    <a class="md-button md-button--secondary" href="{{ page.edit_url }}" target="_blank" rel="noopener">Edit this page</a>
+    <span class="md-edit-note" style="margin-left:12px;font-size:0.95em;color:var(--md-typeset-meta);">Click to propose changes on GitHub. For help, open an issue at <a href="{{ config.repo_url }}/issues">the issue tracker</a> or see the Links page.</span>
+  </div>
+{% endif %}
+
+{% include "partials/actions.html" %}
+{% if "\x3ch1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+{% if page.meta and (
+  page.meta.git_revision_date_localized or
+  page.meta.revision_date
+) %}
+  {% include "partials/source-file.html" %}
+{% endif %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}
