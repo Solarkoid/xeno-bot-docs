@@ -4,6 +4,9 @@ site_name: Xeno Bot Docs
 site_description: Documentation for Xeno Bot
 theme:
   name: material
+  features:
+    - content.action.edit
+    - content.action.view
   palette:
     - scheme: default
       primary: indigo
