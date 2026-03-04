@@ -1,5 +1,5 @@
 ---
-title: Frequently asked questions and answers
+title: FAQ
 description: Short answers and troubleshooting for Xeno Bot docs (FAQ).
 tags:
   - faq

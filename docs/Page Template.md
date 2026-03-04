@@ -8,7 +8,7 @@ One-sentence summary of what this page covers and who it is for.
 
 - **Applies to:** <feature/system/command>
 - **Required permissions:** <none/admin/manage server/etc>
-- **Related pages:** [Configuration](Configuration.md), [FAQ](FAQ.md)
+- **Related pages:** [Configuration](Self Hosting/Configuration.md), [FAQ](FAQ.md)
 - **Last updated:** <YYYY-MM-DD>
 
 ## Overview

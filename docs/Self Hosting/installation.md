@@ -1,3 +1,17 @@
+---
+title: Installation
+description: This project documents the `xeno-bot` Node.js project. To run or develop the bot localy, follow the upstream repository's Node/npm instructions.
+tags: [installation, setup, getting started]
+keywords: [xeno, bot, installation, documentation]
+author: Devvyyxyz
+image: assets/images/faq-og.png
+date: 2026-03-04
+permalink: /installation/
+toc: true
+icon: mdi:help-circle
+aliases: [/installation/, /setup/]
+---
+
 This project documents the `xeno-bot` Node.js project. To run or develop the bot localy, follow the upstream repository's Node/npm instructions.
 
 ----

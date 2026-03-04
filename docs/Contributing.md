@@ -1,3 +1,17 @@
+---
+title: Contributing
+description: Thank you for helping improve the docs and project. This file explains the recommended workflow for proposing documentation and code changes, how to run the docs locally, and how to get help.
+tags: [contributing, development, guidelines]
+keywords: [xeno, bot, contributing, documentation]
+author: Devvyyxyz
+image: assets/images/faq-og.png
+date: 2026-03-04
+permalink: /contributing/
+toc: true
+icon: mdi:help-circle
+aliases: [/contributing/, /contributing-guidelines/]
+---
+
 Thank you for helping improve the docs and project. This file explains the recommended workflow for proposing documentation and code changes, how to run the docs locally, and how to get help.
 
 ----
