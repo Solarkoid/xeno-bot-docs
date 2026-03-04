@@ -7,6 +7,12 @@ on:
       - 'docs/**'
       - 'mkdocs.yml'
       - 'requirements.txt'
+    paths-ignore:
+      - '.github/**'
+      - '.gitignore'
+      - 'README.md'
+      - 'LICENSE'
+      - 'docs/drafts/**'
   workflow_dispatch:
 
 permissions:
