@@ -4,6 +4,8 @@ site_description: Documentation for Xeno Bot
 theme:
   name: material
   custom_dir: overrides
+  logo: img/logo.png
+  favicon: img/favicon.ico
   features:
     - content.action.edit
     - content.action.view
