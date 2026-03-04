@@ -1,9 +1,3 @@
-<!--
-Copy this file when creating a new page.
-Replace placeholder values wrapped in <angle brackets>.
-Delete sections you don't need.
--->
-
 # <Page Title>
 
 One-sentence summary of what this page covers and who it is for.

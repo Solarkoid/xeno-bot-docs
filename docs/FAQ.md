@@ -1,6 +1,15 @@
 ---
 title: Frequently asked questions and answers
+description: Short answers and troubleshooting for Xeno Bot docs (FAQ).
 tags: [faq, questions, answers]
+keywords: [xeno, bot, faq, documentation]
+author: Xeno Docs Team
+image: assets/images/faq-og.png
+date: 2026-03-04
+permalink: /faq/
+toc: true
+search: true
+aliases: [/faq-old/]
 ---
 
 <!--- FAQ page demonstrating usage of site plugins: admonitions, tasklists,
