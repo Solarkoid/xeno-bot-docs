@@ -22,38 +22,6 @@ theme:
         icon: material/white-balance-sunny
         name: Switch to light mode
 
-nav:
-  - Home: index.md
-  - Overview: overview.md
-  - Links: links.md
-  - Getting Started: getting-started.md
-  - Commands:
-    - Index: commands/index.md
-    - Setup: commands/setup.md
-    - Hunt: commands/hunt.md
-    - Eggs: commands/eggs.md
-    - Inventory: commands/inventory.md
-    - Tutorial: commands/tutorial.md
-    - Admin: commands/admin.md
-    - Developer: commands/developer.md
-  - Setup:
-    - Index: setup/index.md
-    - Configuration: setup/configuration.md
-    - Deployment: setup/deployment.md
-  - Systems:
-    - Index: systems/index.md
-    - Architecture: systems/architecture.md
-    - Database: systems/database.md
-    - Sharding: systems/sharding.md
-    - Spawn System: systems/spawn-system.md
-    - Scaling: systems/scaling.md
-  - Examples: examples.md
-  - History: history.md
-  - Contributing: contributing.md
-  - FAQ: faq.md
-  - Troubleshooting: troubleshooting.md
-  - Changelog: changelog.md
-
 plugins:
   - search
   - mkdocstrings

@@ -1,0 +1,9 @@
+nav:
+  - Index: index.md
+  - Setup: setup.md
+  - Hunt: hunt.md
+  - Eggs: eggs.md
+  - Inventory: inventory.md
+  - Tutorial: tutorial.md
+  - Admin: admin.md
+  - Developer: developer.md

@@ -1,0 +1,4 @@
+nav:
+  - Index: index.md
+  - Configuration: configuration.md
+  - Deployment: deployment.md

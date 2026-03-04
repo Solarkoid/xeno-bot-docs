@@ -1,0 +1,7 @@
+nav:
+  - Index: index.md
+  - Architecture: architecture.md
+  - Database: database.md
+  - Sharding: sharding.md
+  - Spawn System: spawn-system.md
+  - Scaling: scaling.md
