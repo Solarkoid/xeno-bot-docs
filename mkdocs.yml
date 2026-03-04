@@ -7,7 +7,7 @@ theme:
   features:
     - content.action.edit
     - content.action.view
-    - navigation.tabs
+    # navigation.tabs removed to use left sidebar navigation
   palette:
     - scheme: default
       primary: indigo
