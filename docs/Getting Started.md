@@ -12,12 +12,12 @@ keywords:
 author: Devvyyxyz
 image:
 date: 2026-03-04
-permalink: /template/
+permalink: /getting-started/
 toc: true
 icon: material/help-circle
 aliases:
-  - /templates/
-  - /Example/
+  - /start/
+  - /starting/
 ---
 # Getting Started
 -# Use /hunt **TWICE** if its your first time using the bot! (its just a bug with new users)
