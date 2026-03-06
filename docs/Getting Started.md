@@ -19,8 +19,6 @@ aliases:
   - /start/
   - /starting/
 ---
-Use /hunt **TWICE** if its your first time using the bot! (There's a bug registering new users)
-
 You start off with one egg that you can hatch to begin hunting for hosts!
 
 You'll need both hosts and eggs to get started. You should try to claim many eggs, as you can sell eggs to obtain Royal Jelly.
