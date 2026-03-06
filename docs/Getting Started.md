@@ -14,7 +14,7 @@ image:
 date: 2026-03-04
 permalink: /getting-started/
 toc: true
-icon: material/help-circle
+icon: fontawesome/solid/star-half-stroke
 aliases:
   - /start/
   - /starting/

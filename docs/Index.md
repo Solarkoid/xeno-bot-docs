@@ -8,7 +8,7 @@ image: assets/images/faq-og.png
 date: 2026-03-04
 permalink: 
 toc: true
-icon: material/help-circle
+icon: material/home
 aliases: [/home/]
 ---
 

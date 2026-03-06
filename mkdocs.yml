@@ -28,84 +28,84 @@ theme:
   # Navigation is auto-generated from `docs/` directory structure; do not add a
   # manual `nav:` section if you want the sidebar to reflect file changes.
 
-  plugins:
-    - blog
-    - search
-    - material/tags
-    - mkdocstrings
-    - mermaid2
-    # - awesome-pages  # disabled to allow Material to propagate page icons into nav
-    - redirects
-    - minify:
-        minify_html: true
-    - git-authors
-    - include-markdown
-    - macros
-    - i18n:
-        languages:
-          - locale: en
-            name: English
-            default: true
-            build: true
-    - git-revision-date-localized:
-        fallback_to_build_date: false
-        locale: en
-        timezone: UTC
+plugins:
+  - blog
+  - search
+  - material/tags
+  - mkdocstrings
+  - mermaid2
+  # - awesome-pages  # disabled to allow Material to propagate page icons into nav
+  - redirects
+  - minify:
+      minify_html: true
+  - git-authors
+  - include-markdown
+  - macros
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+  - git-revision-date-localized:
+      fallback_to_build_date: false
+      locale: en
+      timezone: UTC
 
-  repo_url: https://github.com/devvyyxyz/xeno-bot-docs
+repo_url: https://github.com/devvyyxyz/xeno-bot-docs
 
-  extra:
-    generator: false
-    social:
-      - icon: fontawesome/brands/github
-        link: https://github.com/devvyyxyz
-      - icon: fontawesome/brands/discord
-        link: https://discord.gg/WmFDeMKvzj
-      - icon: fontawesome/solid/rocket
-        link: https://top.gg/bot/1476427270326583306
-      - icon: fontawesome/solid/user-plus
-        link: https://discord.com/oauth2/authorize?client_id=1476427270326583306&scope=bot%20applications.commands&permissions=0
-    analytics:
-      provider: google
-      tracking_id: UA-XXXXX-Y
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/devvyyxyz
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/WmFDeMKvzj
+    - icon: fontawesome/solid/rocket
+      link: https://top.gg/bot/1476427270326583306
+    - icon: fontawesome/solid/user-plus
+      link: https://discord.com/oauth2/authorize?client_id=1476427270326583306&scope=bot%20applications.commands&permissions=0
+  analytics:
+    provider: google
+    tracking_id: UA-XXXXX-Y
 
-  markdown_extensions:
-    - toc:
-        permalink: true
-    - codehilite:
-        guess_lang: false
-    - pymdownx.admonition
-    - pymdownx.details
-    - pymdownx.superfences:
-        custom_fences:
-          - name: mermaid
-            class: mermaid
-            format: !!python/name:pymdownx.superfences.fence_code_format
-    - pymdownx.inlinehilite
-    - pymdownx.magiclink
-    - pymdownx.betterem
-    - pymdownx.highlight:
-        anchor_linenums: true
-        line_spans: __span
-        pygments_lang_class: true
-    - pymdownx.snippets
-    - pymdownx.tasklist:
-        custom_checkbox: true
-    - pymdownx.tabbed:
-        alternate_style: true
-    - pymdownx.emoji
-    - pymdownx.caret
-    - pymdownx.keys
-    - pymdownx.critic
-    - pymdownx.mark
-    - pymdownx.tilde
-    - attr_list
-    - md_in_html
-    - pymdownx.superfences
-    - tables
-    - footnotes
+markdown_extensions:
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+  - tables
+  - footnotes
 
-  extra_css:
-    - css/extra.css
+extra_css:
+  - css/extra.css
 
 copyright: Copyright &copy; Devvyyxyz
