@@ -20,4 +20,4 @@ icon: material/egg
 ---
 Current eggs implented and various stats associated with them:
 
-{{ read_csv('data\egg_stats.csv', sep = ';') }}
+{{ read_csv('data/egg_stats.csv', sep = ';') }}
