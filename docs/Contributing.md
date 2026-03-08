@@ -69,3 +69,7 @@ mkdocs serve
 ## License and contributor agreement
 
 By submitting a pull request you agree to the repository's license and that your contribution will be made available under the same license.
+
+## Contributors
+
+{{ read_raw('docs/_generated/contributors_auto.md') }}
