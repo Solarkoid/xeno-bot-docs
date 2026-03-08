@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Getting Started.md",
+                "file": "docs/Contributing.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Getting Started"
+              "title": "Contributing"
             }
           }
         ],
@@ -208,11 +208,15 @@
   },
   "active": "ec194df0b7125105",
   "lastOpenFiles": [
+    "docs/Getting Started.md",
+    "docs/FAQ.md",
+    "docs/Contributing.md",
+    "docs/Templates.md",
+    "Templates.md",
+    "docs/Self Hosting/Configuration.md",
     "docs/history.md",
     "docs/Roadmap.md",
-    "docs/FAQ.md",
     "docs/Eggs.md",
-    "docs/Contributing.md",
     "docs/Templates/basic-template.md",
     "docs/Templates/host-template.md",
     "docs/Templates/xenomorph-template.md",
@@ -234,10 +238,6 @@
     "docs/_generated/backlinks/_generated_backlinks_Pathways.md",
     "docs/_generated/backlinks/Pathways.md",
     "docs/_generated/backlinks/img_emojis_king.png_index.md",
-    "docs/_generated/backlinks/_generated_backlinks_img_emojis_runner.png__index.md",
-    "docs/_generated/backlinks/_generated_backlinks_faq_index.md",
-    "docs/_generated/backlinks/_generated_backlinks_img_emojis_Hammerpede.webp_index.md",
-    "docs/_generated/backlinks/_generated_backlinks_img_emojis_predator.png__index.md",
     "docs/_generated/backlinks",
     "/scripts/generate_contributors.py",
     "/scripts/generate_backlinks.py",

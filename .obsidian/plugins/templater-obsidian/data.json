@@ -16,7 +16,15 @@
   "folder_templates": [
     {
       "folder": "docs",
-      "template": "docs/Templates/Page Template.md"
+      "template": "docs/Templates/basic-template.md"
+    },
+    {
+      "folder": "docs/Xenomorphs",
+      "template": "docs/Templates/xenomorph-template.md"
+    },
+    {
+      "folder": "docs/Hosts",
+      "template": "docs/Templates/host-template.md"
     }
   ],
   "enable_file_templates": false,

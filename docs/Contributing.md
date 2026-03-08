@@ -16,7 +16,97 @@ Thank you for helping improve the docs and project. This file explains the recom
 
 ----
 
-## Suggested workflow
+# Using Obsidian For Contribution
+
+!!! note
+
+    Using Obsidian is the recommended method for contributing to this site.
+
+Obsidian is an excellent tool for contributing to the documentation — it provides a streamlined, Markdown-focused interface that allows you to concentrate on content creation. Whether you're on mobile or desktop, you can use Obsidian with community plugins to enhance the workflow.
+
+----
+
+## Using Obsidian On Mobile
+
+To contribute using Obsidian on mobile:
+
+1. **Download Obsidian**:
+   - Download Obsidian from your app store ([iOS or Android](https://obsidian.md)).
+
+2. **Set Up Community Plugins**:
+   - Open Obsidian and click on `Settings` (gear icon).
+   - Enable third-party plugins:
+     - Go to `Options` > `Community Plugins` and enable the feature.
+   - Install the following plugins:
+     - **Git**: Allows you to push and pull changes to the repository.
+     - **Templates**: Enables you to create consistent content using predefined templates.
+
+3. **Clone the Repository**:
+   - Use the Git plugin to clone the docs repository. Add your repository URL during setup.
+   - Assign the cloned repository to a vault in Obsidian.
+
+4. **Contribute**:
+   - Open the Markdown file(s) you want to edit within your Obsidian vault.
+   - Use the Templates plugin to insert the page template or other predefined snippets.
+   - Make your changes, then save.
+
+5. **Commit and Push**:
+   - Use the Git plugin to commit your changes with a descriptive message.
+   - Push your changes upstream to submit a pull request via GitHub.
+
+----
+
+## Using Obsidian On Desktop
+
+To contribute using Obsidian on desktop:
+
+1. **Download and Install Obsidian**:
+   - Download the Obsidian desktop app from [Obsidian's website](https://obsidian.md/).
+
+2. **Set Up Community Plugins**:
+   - Open Obsidian and navigate to `Settings` (gear icon).
+   - Enable third-party plugins:
+     - Go to `Community Plugins` and toggle the feature on.
+   - Install the necessary plugins:
+     - **Git**: Push and pull changes directly from Obsidian.
+     - **Templates**: Use preformatted templates for consistency in your contributions.
+
+3. **Clone the Repository**:
+   - If you already have Git installed:
+     - Clone the repository:
+       ```bash
+       git clone <repo_url>
+       ```
+     - Open the cloned folder as an Obsidian vault.
+   - Alternatively, use the Git plugin to clone the repository directly in Obsidian.
+
+4. **Create or Edit Content**:
+   - Navigate to the Markdown files you want to edit.
+   - Use the Templates plugin to insert the required structure for pages or content.
+
+5. **Review Changes Locally**:
+   - Use the `mkdocs` commands provided in the "Editing Docs Locally" section to build and preview your changes.
+
+6. **Commit and Push**:
+   - Commit your changes with a descriptive message using the Git plugin.
+   - Push to your branch and open a pull request on GitHub.
+
+----
+
+## Why Use Obsidian With These Plugins?
+
+- **Git Plugin**: Simplifies the process of keeping your local edits synced with the repository.
+- **Templates Plugin**: Ensures consistency in the format and style of your contributions by using the templates fokder.
+
+By leveraging Obsidian and these two plugins, you can create a smooth editing experience that integrates seamlessly with the documentation workflow.
+
+----
+
+## Suggested workflow (Without Obsidian)
+
+!!! warning
+
+    This method of contributing to the site is not preferred, may lead to issues, and is only accessible on desktop devices.
 
 - Use the **Edit this page** link on any documentation page to propose documentation changes. That opens the source file on GitHub — make an edit and submit a pull request.
 - For large or code changes, fork the repo, create a branch named `fix/<short-description>` or `feat/<short-description>`, make your changes, then open a pull request against `main`.
