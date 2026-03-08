@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/history.md",
+                "file": "docs/Getting Started.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "history"
+              "title": "Getting Started"
             }
           }
         ],
@@ -206,10 +206,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "65dcb6c80d067d53",
+  "active": "ec194df0b7125105",
   "lastOpenFiles": [
-    "docs/Roadmap.md",
     "docs/history.md",
+    "docs/Roadmap.md",
     "docs/FAQ.md",
     "docs/Eggs.md",
     "docs/Contributing.md",
